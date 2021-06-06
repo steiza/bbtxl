@@ -10,10 +10,22 @@ h3 {
     padding-top: 1em;
 }
 
+img {
+    max-width: 100%;
+    margin: 1em;
+}
+
 .flex {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .column {
-    flex: 50%
+    flex: 50%;
+}
+
+@media (max-width: 1000px) {
+    .column {
+        flex: 100%;
+    }
 }
