@@ -1,0 +1,19 @@
+body {
+    margin: 3em;
+}
+
+p {
+    margin: 1em;
+}
+
+h3 {
+    padding-top: 1em;
+}
+
+.flex {
+    display: flex;
+}
+
+.column {
+    flex: 50%
+}
