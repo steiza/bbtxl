@@ -30,3 +30,11 @@ img {
         flex: 100%;
     }
 }
+
+iframe.drrt {
+	width: 1px;
+	min-width: 100%;
+	height: 500px;
+	border: none;
+	scrolling: no;
+}
